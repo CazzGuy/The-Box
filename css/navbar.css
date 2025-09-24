@@ -1,0 +1,32 @@
+
+.logo {
+    width: 1rem;
+}
+
+.logo-text {
+    font-size: 17px;
+}
+
+@media (min-width:768px) {
+    .logo-text {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1024px) {
+    
+    .logo {
+        margin-right: 1rem;
+        width: 40px; 
+        cursor: pointer;
+    }
+}
+
+
+.nav-link:hover {
+    color: #F9995D;
+}
+
+.navbar {
+    background-color: #001AFF2B;;
+}

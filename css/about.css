@@ -1,0 +1,36 @@
+@media (min-width:768px) {
+    .about-pic {
+        border: none;
+        border-radius: 0;
+        width: 50%;
+        margin-left: 19rem;
+    } 
+}
+
+.card {
+       background-color: #2947A9;
+       border-radius: 0;
+}
+
+.card-btn {
+    width: 80%;
+}
+
+@media (min-width:768px) {
+    .about {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* position: relative; */
+    }
+
+    .card {
+        position: absolute;
+        right: 6rem;
+        
+    }
+
+    
+
+
+}

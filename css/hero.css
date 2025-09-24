@@ -1,0 +1,95 @@
+.hero {
+    background-image: url('../images/hero/hero.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero-header {
+    padding: 3rem 2rem 2rem 4rem;
+    font-size: 1.5rem;
+
+}
+
+.hero-info {
+    width: 96%;
+    background-color: #3559C7;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.hero-btn {
+    background-color: white;
+    gap: 1px;
+}
+
+.hero-info button {
+    color: white;
+    background-color: #292E3D;
+    border: none;
+    flex: 2;
+    font-size: 14px;
+}
+
+@media (min-width:750px) {
+    
+    .hero-header {
+        width:45%;
+        padding: 8rem 2rem 2rem 4rem;
+        font-size: 2rem;  
+        
+    }
+
+    .hero-info {
+        width: 40%;
+        position: relative; 
+        left: 25%;
+        text-align: center;
+    }
+    
+    .hero-info-para {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
+    .btn-1 {
+        gap: 1rem;
+    }
+
+    
+}
+
+@media (min-width:1024px) {
+    .hero {
+        padding-bottom: 22rem;
+        padding-left: 3rem;
+    }
+
+    .hero-header {
+        width: 50%;
+        padding-top: 14rem; 
+        font-size: 5rem; 
+        font-weight: 600;
+    }
+
+    .hero-info {
+        position: absolute;
+        width: 30%;
+        right: -23%;
+        bottom: -6.3%;
+    }
+
+    .hero-info-header {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .hero-info-para {
+        width: 60%;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+}
