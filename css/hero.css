@@ -2,11 +2,13 @@
     background-image: url('../images/hero/hero.png');
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
 }
 
 .hero-header {
     padding: 3rem 2rem 2rem 4rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
 
 }
 
@@ -32,6 +34,11 @@
 }
 
 @media (min-width:750px) {
+
+    .hero {
+        background-size: cover;
+        padding-bottom: 6.3rem;
+    }
     
     .hero-header {
         width:45%;
@@ -41,10 +48,14 @@
     }
 
     .hero-info {
+        position: absolute; 
         width: 40%;
-        position: relative; 
-        left: 25%;
-        text-align: center;
+        right: 5%;
+        bottom: 0;
+    }
+
+    .hero-info-header {
+        font-size: 20px;
     }
     
     .hero-info-para {
@@ -58,27 +69,29 @@
         gap: 1rem;
     }
 
+  
     
 }
 
 @media (min-width:1024px) {
     .hero {
-        padding-bottom: 22rem;
-        padding-left: 3rem;
+        padding-bottom: 20rem;
+        
     }
 
     .hero-header {
         width: 50%;
-        padding-top: 14rem; 
         font-size: 5rem; 
         font-weight: 600;
+        position: relative;
+        left: 13px;
+        top: 107px;
     }
 
     .hero-info {
         position: absolute;
         width: 30%;
-        right: -23%;
-        bottom: -6.3%;
+        right: 11%;
     }
 
     .hero-info-header {
@@ -91,5 +104,14 @@
         font-size: 1.5rem;
         padding-bottom: 1rem;
     }
+
+    .hero-info button {
+        font-size: 24px;
+    }
+
+    .hero-info svg {
+        width: 50px;
+    }
+    
 
 }
