@@ -1,7 +1,23 @@
+
+.icons {
+    display: none;
+}
+
+
 @media (min-width: 768px) {
+    img {
+        display: block;
+    }
     .items {
-        flex-grow: 1;
-        width: 15%;
+        width: 50%;
+        font-size: medium;
     }
 
+}
+
+@media (min-width: 1024px) {
+    .items {
+        width: 25%;
+        font-size: larger;
+    }
 }

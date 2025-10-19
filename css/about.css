@@ -1,36 +1,73 @@
-@media (min-width:768px) {
-    .about-pic {
-        border: none;
-        border-radius: 0;
-        width: 50%;
-        margin-left: 19rem;
-    } 
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-pic {
+  width: 90%;
 }
 
 .card {
-       background-color: #2947A9;
-       border-radius: 0;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  background-color: #2947a9;
+  color: white;
 }
 
 .card-btn {
-    width: 80%;
+  color: #2947a9;
+  border: none;
+  border-radius: 5px;
 }
 
-@media (min-width:768px) {
-    .about {
-        display: flex;
-        justify-content: center;
-        /* align-items: center; */
-        /* position: relative; */
-    }
+@media (min-width: 768px) {
+  .about-pic {
+    margin-left: 5%;
+    width: 50%;
+  }
 
-    .card {
-        position: absolute;
-        right: 6rem;
-        
-    }
+  .about {
+    flex-direction: row;
+    gap: 1%;
+  }
 
-    
+  .card {
+    width: 50%;
+  }
+}
 
+@media (min-width: 1024px) {
+  .about {
+    justify-content: space-between;
+    margin: 5% 0;
+  }
 
+  .about-pic {
+    margin-left: 5%;
+    position: relative;
+  }
+
+  .card {
+    width: 30%;
+    position: absolute;
+    right: 20%;
+  }
+
+  .about-header {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .about-info {
+    font-size: larger;
+    font-size: 20px;
+    padding: 1rem;
+  }
 }
