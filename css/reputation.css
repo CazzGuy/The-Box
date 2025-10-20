@@ -1,11 +1,10 @@
-
 .icons {
     display: none;
 }
 
 
 @media (min-width: 768px) {
-    img {
+    .icons {
         display: block;
     }
     .items {
@@ -16,6 +15,7 @@
 }
 
 @media (min-width: 1024px) {
+    
     .items {
         width: 25%;
         font-size: larger;

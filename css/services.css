@@ -1,0 +1,36 @@
+.service {
+    background-color: #E0E3EB;
+}
+
+.bg-blue {
+    background-color: #2947A9;
+}
+
+.service-container-box-item {
+    width: 15rem;
+    display: flex;
+}
+
+.service-container-box-item img {
+    width: 10%;
+}
+
+@media (min-width:768px) {
+    .service-container-box {
+        flex-wrap: wrap;
+    }
+
+    .service-container-box img {
+        width: 30%;
+    }
+    .service-container-box-item {
+        width: 50%;
+        padding: 5rem;
+    }
+}
+
+@media (min-width:1024px) {
+
+    
+     
+}
